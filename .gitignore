@@ -1,0 +1,29 @@
+# Environment variables (secrets)
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Vector database
+vector_db/
+
+# Knowledge base
+knowledge-base/
+
+# Ignore all contents but keep parent directory
+knowledge_base/*
+!knowledge_base/.gitkeep
