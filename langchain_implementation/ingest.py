@@ -9,6 +9,8 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_openai import OpenAIEmbeddings
 from openai import OpenAI
 
+load_dotenv(override=True)
+
 MODEL = "gpt-6-luna"
 DB_NAME = str(Path(__file__).parent.parent / "vector_db");
 KNOWLEDGE_BASE_DIR = str(Path(__file__).parent.parent / "knowledge-base");
